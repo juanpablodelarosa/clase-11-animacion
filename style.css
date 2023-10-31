@@ -1,0 +1,44 @@
+body {
+    background-color: cadetblue;
+
+}
+
+button {
+    padding: 20px 32px;
+    background-color: mediumaquamarine;
+    color: white;
+    font-weight: bold;
+    border: 5px solid;
+    transition: all 500ms
+}
+
+button:hover {
+    color: aquamarine;
+    box-shadow: 5px 5px 20px black;
+    transform: scale(0.9);
+
+
+}
+
+button:active {
+    background-color: aqua;
+}
+
+@keyframes fantasmita {
+    0% {
+        opacity: 0%;
+    }
+
+    25% {
+        transform: translateY(-20px) translate(50px);
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
+
+.fantasmita {
+    animation: fantasmita 3s infinite;
+}
